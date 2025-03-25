@@ -1,5 +1,5 @@
 body, html {
-	background-image: linear-gradient(cornflowerblue, cadetblue);	
+	background: linear-gradient(cornflowerblue, cadetblue);	
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
@@ -53,15 +53,16 @@ body, html {
 }
 
 #launchButton {
-	background: linear-gradient(94deg, #6be5ad 0%, #53afe4 100.05%);
+	font-family: "Chewy";
+	color: white;
+	background: var(--foregroundColour);
 	border-radius: 8px;
-	border: none;
+	border: 2px solid white;
 	padding: 11px 23px;
 	font-size: 20px;
 	margin-top: 30px;
 	line-height: 24px;
 	height: 48px;
-	color: black;
 }
 
 #launchButton:disabled {

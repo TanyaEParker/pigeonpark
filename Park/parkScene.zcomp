@@ -1,75 +1,71 @@
 {
 	"behaviors": {
-		"15f28e36d2f64a97beb36252220df83e": {
-			"id": "15f28e36d2f64a97beb36252220df83e",
-			"label": "MouseOrbit",
-			"parent": {
-				"id": "37e06ac116b0421698ef7a3df6802e38",
-				"order": "a0",
-				"scriptName": "MouseOrbit"
-			},
-			"type": "@zcomponent/three/lib/behaviors/MouseOrbit#MouseOrbit"
-		}
+	},
+	"behaviorsByNode": {
 	},
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
-		"DefaultCookieConsent": {
-			"0ba8e27369df45ca897731dcb1e39bcf": true
+		"Box": {
+			"806221e9d09249ddb4687fe64edf40bd": true
 		},
-		"DefaultEnvironment": {
-			"76218eece5dd429d971cb3b200f6be06": true
+		"DirectionalLight": {
+			"b3c96716a6d546ec8255f8ddd495f29c": true
 		},
-		"DefaultLoader": {
-			"52148d8eafe3426085e700e049662c07": true
+		"ImageTexture": {
+			"7280aa15fddd4767bc7d54a66c942c26": true
 		},
-		"Defaults": {
-			"7b6fb4d895774174b5d151eec86b704c": true
+		"MeshStandardMaterial": {
+			"e540b89123464069bc7ebbb0c8c113c1": true
 		},
-		"Group": {
-			"root": true
+		"MeshStandardMaterial 2": {
+			"69556bf4d339431fb27d60f87f1092b5": true
 		},
-		"PerspectiveCamera": {
-			"37e06ac116b0421698ef7a3df6802e38": true
+		"Plane": {
+			"10e3122db3c240a5a0b287a70f928919": true
 		},
-		"parkScene": {
-			"ba5a3b26d37d402087733b26a65b78bf": true
+		"ShadowPlane": {
+			"6d6d20561e994a00a00589d70d12cdec": true
 		}
 	},
 	"entitiesByScriptName": {
-		"DefaultCookieConsent": {
-			"0ba8e27369df45ca897731dcb1e39bcf": true
+		"Box": {
+			"806221e9d09249ddb4687fe64edf40bd": true
 		},
-		"DefaultEnvironment": {
-			"76218eece5dd429d971cb3b200f6be06": true
+		"DirectionalLight": {
+			"b3c96716a6d546ec8255f8ddd495f29c": true
 		},
-		"DefaultLoader": {
-			"52148d8eafe3426085e700e049662c07": true
+		"ImageTexture": {
+			"7280aa15fddd4767bc7d54a66c942c26": true
 		},
-		"Defaults": {
-			"7b6fb4d895774174b5d151eec86b704c": true
+		"MeshStandardMaterial": {
+			"e540b89123464069bc7ebbb0c8c113c1": true
 		},
-		"PerspectiveCamera": {
-			"37e06ac116b0421698ef7a3df6802e38": true
+		"MeshStandardMaterial_2": {
+			"69556bf4d339431fb27d60f87f1092b5": true
 		},
-		"parkScene": {
-			"ba5a3b26d37d402087733b26a65b78bf": true
+		"Plane": {
+			"10e3122db3c240a5a0b287a70f928919": true
+		},
+		"ShadowPlane": {
+			"6d6d20561e994a00a00589d70d12cdec": true
 		}
 	},
 	"entityConstructorProps": {
-		"0ba8e27369df45ca897731dcb1e39bcf": {
+		"10e3122db3c240a5a0b287a70f928919": {
 		},
-		"15f28e36d2f64a97beb36252220df83e": {
+		"69556bf4d339431fb27d60f87f1092b5": {
 		},
-		"37e06ac116b0421698ef7a3df6802e38": {
+		"6d6d20561e994a00a00589d70d12cdec": {
 		},
-		"52148d8eafe3426085e700e049662c07": {
+		"7280aa15fddd4767bc7d54a66c942c26": {
+			"source": "file://./../assets/parkScene/GroundMask.png"
 		},
-		"76218eece5dd429d971cb3b200f6be06": {
+		"806221e9d09249ddb4687fe64edf40bd": {
 		},
-		"7b6fb4d895774174b5d151eec86b704c": {
+		"b3c96716a6d546ec8255f8ddd495f29c": {
 		},
-		"ba5a3b26d37d402087733b26a65b78bf": {
+		"e540b89123464069bc7ebbb0c8c113c1": {
 		}
 	},
 	"entityPropOverrides": {
@@ -119,118 +115,138 @@
 		}
 	},
 	"entityProps": {
-		"0ba8e27369df45ca897731dcb1e39bcf": {
-		},
-		"15f28e36d2f64a97beb36252220df83e": {
-			"maxPolarAngle": 1.07,
-			"minPolarAngle": 0.5,
-			"rightButton": "None"
-		},
-		"37e06ac116b0421698ef7a3df6802e38": {
-			"position": [
-				0,
-				1.6493075269944928,
-				4.269374110260676
-			],
+		"10e3122db3c240a5a0b287a70f928919": {
 			"rotation": [
-				-0.2853084656003664,
+				-1.5707963267948966,
 				0,
 				0
 			],
-			"tags": [
-				""
+			"scale": [
+				2,
+				2,
+				2
 			]
 		},
-		"52148d8eafe3426085e700e049662c07": {
+		"69556bf4d339431fb27d60f87f1092b5": {
+			"attachTo": "",
+			"color": [
+				0.04666508633021928,
+				0.5840784178830671,
+				0.006048833020386069
+			],
+			"transparent": true
 		},
-		"76218eece5dd429d971cb3b200f6be06": {
-		},
-		"7b6fb4d895774174b5d151eec86b704c": {
+		"6d6d20561e994a00a00589d70d12cdec": {
 			"position": [
 				0,
-				-1.270662141276833,
+				0.006388665050755082,
+				1.3010426069826053e-18
+			]
+		},
+		"7280aa15fddd4767bc7d54a66c942c26": {
+			"attachTo": "alphaMap"
+		},
+		"806221e9d09249ddb4687fe64edf40bd": {
+			"position": [
+				0,
+				0.24475245351371028,
+				0
+			],
+			"scale": [
+				0.4478534415795285,
+				0.4478534415795285,
+				0.4478534415795285
+			]
+		},
+		"b3c96716a6d546ec8255f8ddd495f29c": {
+			"castShadow": true,
+			"position": [
+				0,
+				1.0564850061255198,
 				0
 			]
 		},
-		"ba5a3b26d37d402087733b26a65b78bf": {
+		"e540b89123464069bc7ebbb0c8c113c1": {
 		}
 	},
-	"id": "5d4513e843574c04847bf1474912090f",
+	"id": "89641a1711b44b39b1feeda2406ea5ed",
 	"nodes": {
-		"0ba8e27369df45ca897731dcb1e39bcf": {
-			"id": "0ba8e27369df45ca897731dcb1e39bcf",
-			"label": "DefaultCookieConsent",
-			"parent": {
-				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "a4"
-			},
-			"scriptName": "DefaultCookieConsent",
-			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
-		},
-		"37e06ac116b0421698ef7a3df6802e38": {
-			"id": "37e06ac116b0421698ef7a3df6802e38",
-			"label": "PerspectiveCamera",
-			"parent": {
-				"id": "root",
-				"order": "Zz"
-			},
-			"scriptName": "PerspectiveCamera",
-			"type": "@zcomponent/three/lib/components/cameras/PerspectiveCamera#PerspectiveCamera"
-		},
-		"52148d8eafe3426085e700e049662c07": {
-			"id": "52148d8eafe3426085e700e049662c07",
-			"label": "DefaultLoader",
-			"parent": {
-				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "a3"
-			},
-			"scriptName": "DefaultLoader",
-			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
-		},
-		"76218eece5dd429d971cb3b200f6be06": {
-			"id": "76218eece5dd429d971cb3b200f6be06",
-			"label": "DefaultEnvironment",
-			"parent": {
-				"id": "root",
-				"order": "a1"
-			},
-			"scriptName": "DefaultEnvironment",
-			"type": "@zcomponent/three/lib/components/environments/DefaultEnvironment#DefaultEnvironment"
-		},
-		"7b6fb4d895774174b5d151eec86b704c": {
-			"id": "7b6fb4d895774174b5d151eec86b704c",
-			"label": "Defaults",
+		"10e3122db3c240a5a0b287a70f928919": {
+			"id": "10e3122db3c240a5a0b287a70f928919",
+			"label": "Plane",
 			"parent": {
 				"id": "root",
 				"order": "a0"
 			},
-			"scriptName": "Defaults",
-			"type": "@zcomponent/three/lib/components/Group#Group"
+			"scriptName": "Plane",
+			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
 		},
-		"ba5a3b26d37d402087733b26a65b78bf": {
-			"id": "ba5a3b26d37d402087733b26a65b78bf",
-			"label": "parkScene",
+		"69556bf4d339431fb27d60f87f1092b5": {
+			"id": "69556bf4d339431fb27d60f87f1092b5",
+			"label": "MeshStandardMaterial 2",
+			"parent": {
+				"id": "10e3122db3c240a5a0b287a70f928919",
+				"order": "a0"
+			},
+			"scriptName": "MeshStandardMaterial_2",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"6d6d20561e994a00a00589d70d12cdec": {
+			"id": "6d6d20561e994a00a00589d70d12cdec",
+			"label": "ShadowPlane",
 			"parent": {
 				"id": "root",
-				"order": "Zy"
+				"order": "a2"
 			},
-			"scriptName": "parkScene",
-			"type": "./Park/parkScene.zcomp#default"
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+		},
+		"7280aa15fddd4767bc7d54a66c942c26": {
+			"id": "7280aa15fddd4767bc7d54a66c942c26",
+			"label": "ImageTexture",
+			"parent": {
+				"id": "69556bf4d339431fb27d60f87f1092b5",
+				"order": "a0"
+			},
+			"scriptName": "ImageTexture",
+			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
+		},
+		"806221e9d09249ddb4687fe64edf40bd": {
+			"id": "806221e9d09249ddb4687fe64edf40bd",
+			"label": "Box",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "Box",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
+		"b3c96716a6d546ec8255f8ddd495f29c": {
+			"id": "b3c96716a6d546ec8255f8ddd495f29c",
+			"label": "DirectionalLight",
+			"parent": {
+				"id": "root",
+				"order": "a3"
+			},
+			"scriptName": "DirectionalLight",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"e540b89123464069bc7ebbb0c8c113c1": {
+			"id": "e540b89123464069bc7ebbb0c8c113c1",
+			"label": "MeshStandardMaterial",
+			"parent": {
+				"id": "806221e9d09249ddb4687fe64edf40bd",
+				"order": "a0"
+			},
+			"scriptName": "MeshStandardMaterial",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
 		},
 		"root": {
 			"id": "root",
-			"label": "Group",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		}
 	},
 	"preview": "@zcomponent/three/lib/preview#default",
-	"propEntityOverrides": {
-		"position": {
-			"root": {
-				"position": true
-			}
-		}
-	},
 	"props": {
 		"position": {
 			"comments": [

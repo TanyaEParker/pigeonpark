@@ -1,12 +1,11 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { DefaultCookieConsent as DefaultCookieConsent_0 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
-import { DefaultLoader as DefaultLoader_1 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { Group as Group_2 } from "@zcomponent/three/lib/components/Group";
-import { PerspectiveCamera as PerspectiveCamera_3 } from "@zcomponent/three/lib/components/cameras/PerspectiveCamera";
-import { MouseOrbit as MouseOrbit_4 } from "@zcomponent/three/lib/behaviors/MouseOrbit";
-import { default as parkScene_zcomp_5 } from "./Park/parkScene.zcomp";
-import { DefaultEnvironment as DefaultEnvironment_6 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
+import { Plane as Plane_0 } from "@zcomponent/three/lib/components/meshes/Plane";
+import { Box as Box_1 } from "@zcomponent/three/lib/components/meshes/Box";
+import { ShadowPlane as ShadowPlane_2 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { MeshStandardMaterial as MeshStandardMaterial_3 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { DirectionalLight as DirectionalLight_4 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
+import { ImageTexture as ImageTexture_5 } from "@zcomponent/three/lib/components/textures/ImageTexture";
 
 interface ConstructorProps {
 
@@ -21,33 +20,37 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		DefaultCookieConsent: DefaultCookieConsent_0 & {
+		Plane: Plane_0 & {
 			behaviors: {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_1 & {
+		Box: Box_1 & {
 			behaviors: {
 
 			}
 		},
-		Defaults: Group_2 & {
+		ShadowPlane: ShadowPlane_2 & {
 			behaviors: {
 
 			}
 		},
-		PerspectiveCamera: PerspectiveCamera_3 & {
-			behaviors: {
-				0: MouseOrbit_4,
-				MouseOrbit: MouseOrbit_4,
-			}
-		},
-		parkScene: parkScene_zcomp_5 & {
+		MeshStandardMaterial: MeshStandardMaterial_3 & {
 			behaviors: {
 
 			}
 		},
-		DefaultEnvironment: DefaultEnvironment_6 & {
+		MeshStandardMaterial_2: MeshStandardMaterial_3 & {
+			behaviors: {
+
+			}
+		},
+		DirectionalLight: DirectionalLight_4 & {
+			behaviors: {
+
+			}
+		},
+		ImageTexture: ImageTexture_5 & {
 			behaviors: {
 
 			}
@@ -57,6 +60,16 @@ declare class Comp extends ZComponent {
 	animation: Animation & { layers: {
 
 	}};
+
+	/**
+	 * Determines if this object and its children are rendered to the screen.
+	 * 
+	 * @zprop
+	 * @zdefault true
+	 * @zgroup Appearance
+	 * @zgrouppriority 11
+	 */
+	public visible: Observable<boolean>;
 
 	/**
 	 * The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position.
@@ -87,16 +100,6 @@ declare class Comp extends ZComponent {
 	 * @zgrouppriority 10
 	 */
 	public scale: Observable<[x: number, y: number, z: number]>;
-
-	/**
-	 * Determines if this object and its children are rendered to the screen.
-	 * 
-	 * @zprop
-	 * @zdefault true
-	 * @zgroup Appearance
-	 * @zgrouppriority 11
-	 */
-	public visible: Observable<boolean>;
 }
 
 export default Comp;
