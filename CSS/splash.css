@@ -1,0 +1,114 @@
+body, html {
+	background-image: linear-gradient(cornflowerblue, cadetblue);	
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+:root {
+	--backgroundColour: #efdb9e;
+	--midgroundColour: #bdaf7e;
+	--foregroundColour: #988c64;
+}
+
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.splash {
+	background-color: var(--backgroundColour);
+	position: fixed;
+	width: 100dvw;
+	height: 100dvh;
+	z-index: 2000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	padding-bottom: 5dvh;
+}
+
+.splash-box {
+	width: 304px;
+	max-width: 90%;
+	aspect-ratio: 2;
+	background: none;
+	margin-top: 40%;
+}
+
+.splash-logo
+{
+	height: 100%;
+	width: 100%;
+	filter: drop-shadow(0rem 0.5rem 0.2rem var(--foregroundColour));
+}
+
+.zcomponent-launched .splash {
+	display: none;
+}
+
+#launchButton {
+	background: linear-gradient(94deg, #6be5ad 0%, #53afe4 100.05%);
+	border-radius: 8px;
+	border: none;
+	padding: 11px 23px;
+	font-size: 20px;
+	margin-top: 30px;
+	line-height: 24px;
+	height: 48px;
+	color: black;
+}
+
+#launchButton:disabled {
+	background: none;
+	background-color: none;
+	width: 48px;
+	visibility: hidden;
+	padding: 0px;
+}
+
+#launchButton:disabled:before {
+	content: ' ';
+	visibility: visible;
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 0px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 5px solid #fff;
+	border-color: #fff transparent #fff transparent;
+	animation: loading-animation 1.2s linear infinite;
+}
+
+@keyframes loading-animation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Loader */
+
+.zcomponent-defaultloader
+{
+	background-color: var(--backgroundColour) !important;
+}
+
+#zcomponent-defaultloader-progress
+{
+	box-shadow: 0rem 0.3rem 0.5rem #988c646b;
+	background-color: var(--midgroundColour) !important;
+}
+
+#zcomponent-defaultloader-progress-percentage
+{
+	background-color: var(--foregroundColour) !important;
+}
