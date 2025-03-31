@@ -10,21 +10,41 @@
 			},
 			"type": "./adjustRotation.ts#adjustRotation"
 		},
-		"3dd12fd094bf4833b2f23a29ddb3bbec": {
-			"id": "3dd12fd094bf4833b2f23a29ddb3bbec",
-			"label": "modifyZIndex",
+		"3d4c365e1a63414a918fc9bc1c0962c1": {
+			"id": "3d4c365e1a63414a918fc9bc1c0962c1",
+			"label": "adjustRotation",
 			"parent": {
-				"id": "5055890252bd49ca868f072bb0d14db0",
-				"order": "a1",
-				"scriptName": "modifyZIndex"
+				"id": "68ef5568dcca4d868a1aad277804d845",
+				"order": "a0",
+				"scriptName": "adjustRotation"
 			},
-			"type": "./modifyZIndex#modifyZIndex"
+			"type": "./adjustRotation#adjustRotation"
 		},
 		"4c63f8334eab4deba8afe14512d515dc": {
 			"id": "4c63f8334eab4deba8afe14512d515dc",
 			"label": "adjustRotation",
 			"parent": {
 				"id": "5055890252bd49ca868f072bb0d14db0",
+				"order": "a0",
+				"scriptName": "adjustRotation"
+			},
+			"type": "./adjustRotation#adjustRotation"
+		},
+		"9579d4a6e6554cd3a253f86d5516fcb4": {
+			"id": "9579d4a6e6554cd3a253f86d5516fcb4",
+			"label": "hideNullPattern",
+			"parent": {
+				"id": "9c166a6e429e4f6e9e31a2dda308dbca",
+				"order": "a0",
+				"scriptName": "hideNullPattern"
+			},
+			"type": "./hideNullPattern#hideNullPattern"
+		},
+		"a443d03e6c3d4ed188a3eb67e68931c4": {
+			"id": "a443d03e6c3d4ed188a3eb67e68931c4",
+			"label": "adjustRotation",
+			"parent": {
+				"id": "20419232d1b94ae8b0499aedd313c53d",
 				"order": "a0",
 				"scriptName": "adjustRotation"
 			},
@@ -66,14 +86,23 @@
 		"large highlight": {
 			"83f47e81b74144f6ba2a096a034daaec": true
 		},
+		"left leg": {
+			"b0d38eb6b3b54908b57e8da9c209d89e": true
+		},
 		"legs": {
-			"c2ba5da340b04730a3074d0ae37d8c04": true
+			"61fbd315de4947a2aced896f01dc2e88": true
 		},
 		"neck-highlight": {
 			"3ace577f0f15429da5a17d94c6c3a808": true
 		},
+		"overlay": {
+			"9c166a6e429e4f6e9e31a2dda308dbca": true
+		},
 		"pupil": {
 			"8ce4fb0631c447b29eb6ab64ea341c2c": true
+		},
+		"right leg": {
+			"87a487b2ddd44f8596bd32fa09f21a45": true
 		},
 		"small highlight": {
 			"6e0a3b78a6514d9198489e8d9e739e25": true
@@ -116,14 +145,23 @@
 		"large_highlight": {
 			"83f47e81b74144f6ba2a096a034daaec": true
 		},
-		"legs": {
-			"c2ba5da340b04730a3074d0ae37d8c04": true
+		"left_leg": {
+			"b0d38eb6b3b54908b57e8da9c209d89e": true
+		},
+		"legs0": {
+			"61fbd315de4947a2aced896f01dc2e88": true
 		},
 		"neck_highlight": {
 			"3ace577f0f15429da5a17d94c6c3a808": true
 		},
+		"overlay": {
+			"9c166a6e429e4f6e9e31a2dda308dbca": true
+		},
 		"pupil": {
 			"8ce4fb0631c447b29eb6ab64ea341c2c": true
+		},
+		"right_leg": {
+			"87a487b2ddd44f8596bd32fa09f21a45": true
 		},
 		"small_highlight": {
 			"6e0a3b78a6514d9198489e8d9e739e25": true
@@ -150,7 +188,7 @@
 		},
 		"3d0f1bb6361c4234be3c8c59a98fdffc": {
 		},
-		"3dd12fd094bf4833b2f23a29ddb3bbec": {
+		"3d4c365e1a63414a918fc9bc1c0962c1": {
 		},
 		"433350305445447ab2126d4b9424b88a": {
 		},
@@ -159,6 +197,8 @@
 		"5055890252bd49ca868f072bb0d14db0": {
 		},
 		"5240ac3b87d6462cb43fc5d58401b3ae": {
+		},
+		"61fbd315de4947a2aced896f01dc2e88": {
 		},
 		"68ef5568dcca4d868a1aad277804d845": {
 		},
@@ -169,11 +209,19 @@
 		},
 		"83f47e81b74144f6ba2a096a034daaec": {
 		},
+		"87a487b2ddd44f8596bd32fa09f21a45": {
+		},
 		"8ce4fb0631c447b29eb6ab64ea341c2c": {
+		},
+		"9579d4a6e6554cd3a253f86d5516fcb4": {
+		},
+		"9c166a6e429e4f6e9e31a2dda308dbca": {
 		},
 		"9ff4e4db91b84fb68dd7732144f72b30": {
 		},
-		"c2ba5da340b04730a3074d0ae37d8c04": {
+		"a443d03e6c3d4ed188a3eb67e68931c4": {
+		},
+		"b0d38eb6b3b54908b57e8da9c209d89e": {
 		}
 	},
 	"entityPropOverrides": {
@@ -229,6 +277,9 @@
 			"verticalAnchor": "bottom"
 		},
 		"20419232d1b94ae8b0499aedd313c53d": {
+			"classList": [
+				"pigeon-tail"
+			]
 		},
 		"21cb281bb52248aab2072d7d60e9c6b4": {
 			"classList": [
@@ -241,6 +292,9 @@
 			"rotationMod": 0
 		},
 		"346535a4296f4ca8812e8183c944e1d3": {
+			"classList": [
+				"pigeon-beak"
+			]
 		},
 		"3ace577f0f15429da5a17d94c6c3a808": {
 			"classList": [
@@ -248,9 +302,13 @@
 			]
 		},
 		"3d0f1bb6361c4234be3c8c59a98fdffc": {
+			"classList": [
+				"pigeon-beak-blob"
+			]
 		},
-		"3dd12fd094bf4833b2f23a29ddb3bbec": {
-			"ZIndex": -1
+		"3d4c365e1a63414a918fc9bc1c0962c1": {
+			"reverseDirection": true,
+			"rotationMod": 0
 		},
 		"433350305445447ab2126d4b9424b88a": {
 			"classList": [
@@ -273,7 +331,16 @@
 			],
 			"id": ""
 		},
+		"61fbd315de4947a2aced896f01dc2e88": {
+			"classList": [
+				"pigeon-legs-wrapper"
+			],
+			"position": "absolute"
+		},
 		"68ef5568dcca4d868a1aad277804d845": {
+			"classList": [
+				"pigeon-wing-base"
+			]
 		},
 		"6e0a3b78a6514d9198489e8d9e739e25": {
 			"classList": [
@@ -297,10 +364,24 @@
 			],
 			"position": "absolute"
 		},
+		"87a487b2ddd44f8596bd32fa09f21a45": {
+			"classList": [
+				"pigeon-leg",
+				"pigeon-leg-right"
+			],
+			"position": "relative"
+		},
 		"8ce4fb0631c447b29eb6ab64ea341c2c": {
 			"classList": [
 				"pigeon-eye",
 				"pigeon-eye-pupil"
+			]
+		},
+		"9579d4a6e6554cd3a253f86d5516fcb4": {
+		},
+		"9c166a6e429e4f6e9e31a2dda308dbca": {
+			"classList": [
+				"pigeon-wing-overlay"
 			]
 		},
 		"9ff4e4db91b84fb68dd7732144f72b30": {
@@ -309,7 +390,16 @@
 				"pigeon-eye-highlight-holder"
 			]
 		},
-		"c2ba5da340b04730a3074d0ae37d8c04": {
+		"a443d03e6c3d4ed188a3eb67e68931c4": {
+			"reverseDirection": false,
+			"rotationMod": 0.142589469739554
+		},
+		"b0d38eb6b3b54908b57e8da9c209d89e": {
+			"classList": [
+				"pigeon-leg",
+				""
+			],
+			"position": "relative"
 		}
 	},
 	"id": "c7a746a9d5c847cd90410a7e176e9c4b",
@@ -329,7 +419,7 @@
 			"label": "tail",
 			"parent": {
 				"id": "12cd9bd6f5ac4feabb64c794f4074a02",
-				"order": "a2"
+				"order": "ZzV"
 			},
 			"scriptName": "tail",
 			"type": "@zcomponent/html/lib/div#Div"
@@ -404,6 +494,16 @@
 			"scriptName": "body",
 			"type": "@zcomponent/html/lib/div#Div"
 		},
+		"61fbd315de4947a2aced896f01dc2e88": {
+			"id": "61fbd315de4947a2aced896f01dc2e88",
+			"label": "legs",
+			"parent": {
+				"id": "12cd9bd6f5ac4feabb64c794f4074a02",
+				"order": "Zy"
+			},
+			"scriptName": "legs0",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
 		"68ef5568dcca4d868a1aad277804d845": {
 			"id": "68ef5568dcca4d868a1aad277804d845",
 			"label": "wing",
@@ -444,6 +544,16 @@
 			"scriptName": "large_highlight",
 			"type": "@zcomponent/html/lib/div#Div"
 		},
+		"87a487b2ddd44f8596bd32fa09f21a45": {
+			"id": "87a487b2ddd44f8596bd32fa09f21a45",
+			"label": "right leg",
+			"parent": {
+				"id": "61fbd315de4947a2aced896f01dc2e88",
+				"order": "a1"
+			},
+			"scriptName": "right_leg",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
 		"8ce4fb0631c447b29eb6ab64ea341c2c": {
 			"id": "8ce4fb0631c447b29eb6ab64ea341c2c",
 			"label": "pupil",
@@ -453,6 +563,16 @@
 			},
 			"scriptName": "pupil",
 			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"9c166a6e429e4f6e9e31a2dda308dbca": {
+			"id": "9c166a6e429e4f6e9e31a2dda308dbca",
+			"label": "overlay",
+			"parent": {
+				"id": "68ef5568dcca4d868a1aad277804d845",
+				"order": "a0"
+			},
+			"scriptName": "overlay",
+			"type": "@zcomponent/html/lib/img#Img"
 		},
 		"9ff4e4db91b84fb68dd7732144f72b30": {
 			"id": "9ff4e4db91b84fb68dd7732144f72b30",
@@ -464,14 +584,14 @@
 			"scriptName": "highight_holder",
 			"type": "@zcomponent/html/lib/div#Div"
 		},
-		"c2ba5da340b04730a3074d0ae37d8c04": {
-			"id": "c2ba5da340b04730a3074d0ae37d8c04",
-			"label": "legs",
+		"b0d38eb6b3b54908b57e8da9c209d89e": {
+			"id": "b0d38eb6b3b54908b57e8da9c209d89e",
+			"label": "left leg",
 			"parent": {
-				"id": "12cd9bd6f5ac4feabb64c794f4074a02",
-				"order": "a1"
+				"id": "61fbd315de4947a2aced896f01dc2e88",
+				"order": "a0"
 			},
-			"scriptName": "legs",
+			"scriptName": "left_leg",
 			"type": "@zcomponent/html/lib/div#Div"
 		},
 		"root": {

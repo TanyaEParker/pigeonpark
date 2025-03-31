@@ -4,7 +4,6 @@ import { DirectionalLight as DirectionalLight_0 } from "@zcomponent/three/lib/co
 import { ImageTexture as ImageTexture_1 } from "@zcomponent/three/lib/components/textures/ImageTexture";
 import { MeshStandardMaterial as MeshStandardMaterial_2 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
 import { Plane as Plane_3 } from "@zcomponent/three/lib/components/meshes/Plane";
-import { default as pigeon_zcomp_4 } from "../pigeon/pigeon.zcomp";
 
 interface ConstructorProps {
 
@@ -40,11 +39,6 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Plane: Plane_3 & {
-			behaviors: {
-
-			}
-		},
-		pigeon: pigeon_zcomp_4 & {
 			behaviors: {
 
 			}

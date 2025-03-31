@@ -1,3 +1,8 @@
+:root
+{
+	--legHeight: 220px;
+}
+
 .pigeon-body
 {
 	background-color: #878787;
@@ -5,12 +10,12 @@
 	width: 815px;
 	height: 546px;
 	border-radius: 273px;
-	z-index: auto;
+	margin-bottom: var(--legHeight);
 }
 
 .pigeon-neck
 {
-	background-color: #797979;
+	background-color: grey;
 
 	width: 428px;
 	height: 836px;
@@ -18,9 +23,9 @@
 	transform-origin: 50% 75%;
 
 	position: absolute;
-	bottom: 95px;
+	bottom: calc(var(--legHeight) + 95px);
 
-	z-index: -1;
+/*	z-index: -1;*/
 }
 
 .pigeon-neck-highlight
@@ -90,4 +95,78 @@
 	border-radius: 50%;
 	aspect-ratio: 1;
 	height: 50px;
+}
+
+.pigeon-wing-base
+{
+	background-color: grey;
+	width: 800px;
+	height: 400px;
+	border-radius: 400px 50px 800px 400px;
+	position: relative;
+	top: 72px;
+	left: 105px;
+	transform-origin: 25% 50%
+}
+.pigeon-wing-overlay
+{
+	width: 100%;
+	height: 100%;
+}
+.pigeon-beak
+{
+	background-color: black;
+	border-radius: 27px 0px 0px 27px;
+	height: 54px;
+	width: 84px;
+
+	position: relative;
+	bottom: 105px;
+	right: 84px;
+}
+
+.pigeon-beak-blob
+{
+	background-color: white;
+	aspect-ratio: 1;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	left: 70px;
+	bottom: 30px;
+}
+
+.pigeon-leg
+{
+	background-color: #f89b95;
+	border-radius: 0px 0px 24px 24px;
+	height: var(--legHeight);
+	width: 48px;
+}
+.pigeon-leg-right
+{
+	margin-left: 74px;
+}
+
+.pigeon-legs-wrapper
+{
+	display:flex;
+	flex-direction:row;
+	position: absolute;
+	margin-bottom: var(--legHeight);
+	position: absolute;
+	top: 546px;
+	left: 346px;
+}
+
+.pigeon-tail
+{
+	position: absolute;
+	width: 330px;
+	height: 230px;
+	background-color: grey;
+	border-radius: 0px 230px 230px 0px;
+	transform-origin: 25% 50%;
+	left: 615px;
+	top: calc(var(--legHeight) + 114px);
 }

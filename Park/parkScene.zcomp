@@ -20,9 +20,6 @@
 		},
 		"Plane": {
 			"10e3122db3c240a5a0b287a70f928919": true
-		},
-		"pigeon": {
-			"9bc929546e23496186d1f889cfa9ec06": true
 		}
 	},
 	"entitiesByScriptName": {
@@ -40,9 +37,6 @@
 		},
 		"Plane": {
 			"10e3122db3c240a5a0b287a70f928919": true
-		},
-		"pigeon": {
-			"9bc929546e23496186d1f889cfa9ec06": true
 		}
 	},
 	"entityConstructorProps": {
@@ -52,8 +46,6 @@
 		},
 		"7280aa15fddd4767bc7d54a66c942c26": {
 			"source": "file://./../assets/parkScene/GroundMask.png"
-		},
-		"9bc929546e23496186d1f889cfa9ec06": {
 		},
 		"b3c96716a6d546ec8255f8ddd495f29c": {
 		},
@@ -127,13 +119,6 @@
 		"7280aa15fddd4767bc7d54a66c942c26": {
 			"attachTo": "alphaMap"
 		},
-		"9bc929546e23496186d1f889cfa9ec06": {
-			"position": [
-				-0.530954079734324,
-				0,
-				0
-			]
-		},
 		"b3c96716a6d546ec8255f8ddd495f29c": {
 			"castShadow": true,
 			"position": [
@@ -181,16 +166,6 @@
 			},
 			"scriptName": "ImageTexture",
 			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
-		},
-		"9bc929546e23496186d1f889cfa9ec06": {
-			"id": "9bc929546e23496186d1f889cfa9ec06",
-			"label": "pigeon",
-			"parent": {
-				"id": "root",
-				"order": "a4"
-			},
-			"scriptName": "pigeon",
-			"type": "../pigeon/pigeon.zcomp#default"
 		},
 		"b3c96716a6d546ec8255f8ddd495f29c": {
 			"id": "b3c96716a6d546ec8255f8ddd495f29c",

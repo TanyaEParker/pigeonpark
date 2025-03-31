@@ -4,8 +4,9 @@ import { CSS as CSS_0 } from "@zcomponent/html/lib/CSS";
 import { HTML as HTML_1 } from "@zcomponent/three/lib/components/HTML";
 import { Div as Div_2 } from "@zcomponent/html/lib/div";
 import { adjustRotation as adjustRotation_3 } from "./adjustRotation";
-import { modifyZIndex as modifyZIndex_4 } from "./modifyZIndex";
-import { adjustRotation as adjustRotation_5 } from "./adjustRotation";
+import { adjustRotation as adjustRotation_4 } from "./adjustRotation";
+import { Img as Img_5 } from "@zcomponent/html/lib/img";
+import { hideNullPattern as hideNullPattern_6 } from "./hideNullPattern";
 
 interface ConstructorProps {
 
@@ -34,64 +35,6 @@ declare class Comp extends ZComponent {
 			behaviors: {
 				0: adjustRotation_3,
 				adjustRotation: adjustRotation_3,
-				1: modifyZIndex_4,
-				modifyZIndex: modifyZIndex_4,
-			}
-		},
-		body: Div_2 & {
-			behaviors: {
-				0: adjustRotation_5,
-				adjustRotation: adjustRotation_5,
-			}
-		},
-		small_highlight: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		large_highlight: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		iris: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		highight_holder: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		eye: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		pupil: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		neck_highlight: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		legs: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		wing: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		tail: Div_2 & {
-			behaviors: {
-
 			}
 		},
 		beak: Div_2 & {
@@ -102,6 +45,80 @@ declare class Comp extends ZComponent {
 		beakBlob: Div_2 & {
 			behaviors: {
 
+			}
+		},
+		body: Div_2 & {
+			behaviors: {
+				0: adjustRotation_4,
+				adjustRotation: adjustRotation_4,
+			}
+		},
+		eye: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		highight_holder: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		iris: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		large_highlight: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		neck_highlight: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		pupil: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		small_highlight: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		tail: Div_2 & {
+			behaviors: {
+				0: adjustRotation_3,
+				adjustRotation: adjustRotation_3,
+			}
+		},
+		wing: Div_2 & {
+			behaviors: {
+				0: adjustRotation_3,
+				adjustRotation: adjustRotation_3,
+			}
+		},
+		legs0: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		left_leg: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		right_leg: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		overlay: Img_5 & {
+			behaviors: {
+				0: hideNullPattern_6,
+				hideNullPattern: hideNullPattern_6,
 			}
 		},
 	};

@@ -1,7 +1,5 @@
 {
 	"behaviors": {
-<<<<<<< Updated upstream
-=======
 		"15f28e36d2f64a97beb36252220df83e": {
 			"id": "15f28e36d2f64a97beb36252220df83e",
 			"label": "MouseOrbit",
@@ -22,32 +20,21 @@
 			},
 			"type": "./testOrbit.ts#testOrbit"
 		}
->>>>>>> Stashed changes
 	},
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
-		"Box": {
-			"194aae695cba4b60a35c287f3e37fbcf": true
-		},
 		"DefaultCookieConsent": {
 			"0ba8e27369df45ca897731dcb1e39bcf": true
 		},
 		"DefaultEnvironment": {
-<<<<<<< Updated upstream
-			"a57f5d58e38e4a0b918dcf605ea12736": true
-=======
 			"11d8c40365d045eb9eda813df80d54ba": true
->>>>>>> Stashed changes
 		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
 		},
 		"Defaults": {
 			"7b6fb4d895774174b5d151eec86b704c": true
-		},
-		"DirectionalLight": {
-			"857f9901b65b42c89a3ff04470d70738": true
 		},
 		"Group": {
 			"root": true
@@ -55,23 +42,19 @@
 		"PerspectiveCamera": {
 			"37e06ac116b0421698ef7a3df6802e38": true
 		},
-		"ShadowPlane": {
-			"bf1d127bf7234511b3cdc3d5a98af7b0": true
+		"parkScene": {
+			"ba5a3b26d37d402087733b26a65b78bf": true
+		},
+		"pigeon": {
+			"5f9c70ebbc5b48bba30c4bd14b80940d": true
 		}
 	},
 	"entitiesByScriptName": {
-		"Box": {
-			"194aae695cba4b60a35c287f3e37fbcf": true
-		},
 		"DefaultCookieConsent": {
 			"0ba8e27369df45ca897731dcb1e39bcf": true
 		},
 		"DefaultEnvironment": {
-<<<<<<< Updated upstream
-			"a57f5d58e38e4a0b918dcf605ea12736": true
-=======
 			"11d8c40365d045eb9eda813df80d54ba": true
->>>>>>> Stashed changes
 		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
@@ -79,44 +62,34 @@
 		"Defaults": {
 			"7b6fb4d895774174b5d151eec86b704c": true
 		},
-		"DirectionalLight": {
-			"857f9901b65b42c89a3ff04470d70738": true
-		},
 		"PerspectiveCamera": {
 			"37e06ac116b0421698ef7a3df6802e38": true
 		},
-		"ShadowPlane": {
-			"bf1d127bf7234511b3cdc3d5a98af7b0": true
+		"parkScene": {
+			"ba5a3b26d37d402087733b26a65b78bf": true
+		},
+		"pigeon": {
+			"5f9c70ebbc5b48bba30c4bd14b80940d": true
 		}
 	},
 	"entityConstructorProps": {
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
-<<<<<<< Updated upstream
-		"194aae695cba4b60a35c287f3e37fbcf": {
-=======
 		"11d8c40365d045eb9eda813df80d54ba": {
 		},
 		"15f28e36d2f64a97beb36252220df83e": {
->>>>>>> Stashed changes
 		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
+		"5f9c70ebbc5b48bba30c4bd14b80940d": {
+		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
-<<<<<<< Updated upstream
-		"857f9901b65b42c89a3ff04470d70738": {
-		},
-		"a57f5d58e38e4a0b918dcf605ea12736": {
-		},
-		"bf1d127bf7234511b3cdc3d5a98af7b0": {
-=======
 		"ba5a3b26d37d402087733b26a65b78bf": {
 		},
 		"ca8b63307619459ea389f98a9ce4b998": {
->>>>>>> Stashed changes
 		}
 	},
 	"entityPropOverrides": {
@@ -168,55 +141,47 @@
 	"entityProps": {
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
-<<<<<<< Updated upstream
-		"194aae695cba4b60a35c287f3e37fbcf": {
-			"position": [
-				0,
-				0.7863417862867201,
-				0
-			]
-=======
 		"11d8c40365d045eb9eda813df80d54ba": {
 		},
 		"15f28e36d2f64a97beb36252220df83e": {
 			"maxPolarAngle": 1.07,
 			"minPolarAngle": 0.5,
 			"rightButton": "None"
->>>>>>> Stashed changes
 		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 			"position": [
 				0,
-				1.7095826973758346,
-				3.062317651416838
+				1.6493075269944928,
+				4.269374110260676
 			],
 			"rotation": [
-				-0.28265263978917693,
+				-0.2853084656003664,
 				0,
 				0
+			],
+			"tags": [
+				""
 			]
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
-		"7b6fb4d895774174b5d151eec86b704c": {
+		"5f9c70ebbc5b48bba30c4bd14b80940d": {
+			"position": [
+				0.3467066561930563,
+				0,
+				0.3729778973537108
+			]
 		},
-		"857f9901b65b42c89a3ff04470d70738": {
-			"castShadow": true,
+		"7b6fb4d895774174b5d151eec86b704c": {
 			"position": [
 				0,
-				3.822578351542651,
+				-1.270662141276833,
 				0
 			]
 		},
-<<<<<<< Updated upstream
-		"a57f5d58e38e4a0b918dcf605ea12736": {
-		},
-		"bf1d127bf7234511b3cdc3d5a98af7b0": {
-=======
 		"ba5a3b26d37d402087733b26a65b78bf": {
 		},
 		"ca8b63307619459ea389f98a9ce4b998": {
->>>>>>> Stashed changes
 		}
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
@@ -231,17 +196,6 @@
 			"scriptName": "DefaultCookieConsent",
 			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
 		},
-<<<<<<< Updated upstream
-		"194aae695cba4b60a35c287f3e37fbcf": {
-			"id": "194aae695cba4b60a35c287f3e37fbcf",
-			"label": "Box",
-			"parent": {
-				"id": "root",
-				"order": "ZzV"
-			},
-			"scriptName": "Box",
-			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
-=======
 		"11d8c40365d045eb9eda813df80d54ba": {
 			"id": "11d8c40365d045eb9eda813df80d54ba",
 			"label": "DefaultEnvironment",
@@ -251,7 +205,6 @@
 			},
 			"scriptName": "DefaultEnvironment",
 			"type": "@zcomponent/three/lib/components/environments/DefaultEnvironment#DefaultEnvironment"
->>>>>>> Stashed changes
 		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 			"id": "37e06ac116b0421698ef7a3df6802e38",
@@ -273,6 +226,16 @@
 			"scriptName": "DefaultLoader",
 			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
 		},
+		"5f9c70ebbc5b48bba30c4bd14b80940d": {
+			"id": "5f9c70ebbc5b48bba30c4bd14b80940d",
+			"label": "pigeon",
+			"parent": {
+				"id": "root",
+				"order": "a2"
+			},
+			"scriptName": "pigeon",
+			"type": "./pigeon/pigeon.zcomp#default"
+		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 			"id": "7b6fb4d895774174b5d151eec86b704c",
 			"label": "Defaults",
@@ -283,36 +246,15 @@
 			"scriptName": "Defaults",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
-		"857f9901b65b42c89a3ff04470d70738": {
-			"id": "857f9901b65b42c89a3ff04470d70738",
-			"label": "DirectionalLight",
+		"ba5a3b26d37d402087733b26a65b78bf": {
+			"id": "ba5a3b26d37d402087733b26a65b78bf",
+			"label": "parkScene",
 			"parent": {
-				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "a2"
+				"id": "root",
+				"order": "Zy"
 			},
-			"scriptName": "DirectionalLight",
-			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
-		},
-		"a57f5d58e38e4a0b918dcf605ea12736": {
-			"id": "a57f5d58e38e4a0b918dcf605ea12736",
-			"label": "DefaultEnvironment",
-			"parent": {
-				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "a1"
-			},
-			"scriptName": "DefaultEnvironment",
-			"type": "@zcomponent/three/lib/components/environments/DefaultEnvironment#DefaultEnvironment"
-		},
-		"bf1d127bf7234511b3cdc3d5a98af7b0": {
-			"id": "bf1d127bf7234511b3cdc3d5a98af7b0",
-			"label": "ShadowPlane",
-			"locked": true,
-			"parent": {
-				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "a0"
-			},
-			"scriptName": "ShadowPlane",
-			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+			"scriptName": "parkScene",
+			"type": "./Park/parkScene.zcomp#default"
 		},
 		"root": {
 			"id": "root",
