@@ -1,13 +1,13 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
 import { DefaultCookieConsent as DefaultCookieConsent_0 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
-import { DefaultLoader as DefaultLoader_1 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { Group as Group_2 } from "@zcomponent/three/lib/components/Group";
-import { PerspectiveCamera as PerspectiveCamera_3 } from "@zcomponent/three/lib/components/cameras/PerspectiveCamera";
-import { MouseOrbit as MouseOrbit_4 } from "@zcomponent/three/lib/behaviors/MouseOrbit";
-import { testOrbit as testOrbit_5 } from "./testOrbit";
-import { default as parkScene_zcomp_6 } from "./Park/parkScene.zcomp";
-import { DefaultEnvironment as DefaultEnvironment_7 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
+import { DefaultEnvironment as DefaultEnvironment_1 } from "@zcomponent/three/lib/components/environments/DefaultEnvironment";
+import { DefaultLoader as DefaultLoader_2 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
+import { PerspectiveCamera as PerspectiveCamera_4 } from "@zcomponent/three/lib/components/cameras/PerspectiveCamera";
+import { MouseOrbit as MouseOrbit_5 } from "@zcomponent/three/lib/behaviors/MouseOrbit";
+import { testOrbit as testOrbit_6 } from "./testOrbit";
+import { default as parkScene_zcomp_7 } from "./Park/parkScene.zcomp";
 import { default as pigeon_zcomp_8 } from "./pigeon/pigeon.zcomp";
 
 interface ConstructorProps {
@@ -28,35 +28,40 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_1 & {
+		DefaultEnvironment: DefaultEnvironment_1 & {
 			behaviors: {
 
 			}
 		},
-		Defaults: Group_2 & {
+		DefaultLoader: DefaultLoader_2 & {
 			behaviors: {
 
 			}
 		},
-		PerspectiveCamera: PerspectiveCamera_3 & {
-			behaviors: {
-				0: MouseOrbit_4,
-				MouseOrbit: MouseOrbit_4,
-				1: testOrbit_5,
-				testOrbit: testOrbit_5,
-			}
-		},
-		parkScene: parkScene_zcomp_6 & {
+		Defaults: Group_3 & {
 			behaviors: {
 
 			}
 		},
-		DefaultEnvironment: DefaultEnvironment_7 & {
+		PerspectiveCamera: PerspectiveCamera_4 & {
+			behaviors: {
+				0: MouseOrbit_5,
+				MouseOrbit: MouseOrbit_5,
+				1: testOrbit_6,
+				testOrbit: testOrbit_6,
+			}
+		},
+		parkScene: parkScene_zcomp_7 & {
 			behaviors: {
 
 			}
 		},
 		pigeon: pigeon_zcomp_8 & {
+			behaviors: {
+
+			}
+		},
+		pigeon0: pigeon_zcomp_8 & {
 			behaviors: {
 
 			}

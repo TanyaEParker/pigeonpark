@@ -47,6 +47,9 @@
 		},
 		"pigeon": {
 			"5f9c70ebbc5b48bba30c4bd14b80940d": true
+		},
+		"pigeon 2": {
+			"c50a71da12a244748d12fefab4210a2b": true
 		}
 	},
 	"entitiesByScriptName": {
@@ -70,6 +73,9 @@
 		},
 		"pigeon": {
 			"5f9c70ebbc5b48bba30c4bd14b80940d": true
+		},
+		"pigeon0": {
+			"c50a71da12a244748d12fefab4210a2b": true
 		}
 	},
 	"entityConstructorProps": {
@@ -88,6 +94,8 @@
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
 		"ba5a3b26d37d402087733b26a65b78bf": {
+		},
+		"c50a71da12a244748d12fefab4210a2b": {
 		},
 		"ca8b63307619459ea389f98a9ce4b998": {
 		}
@@ -167,9 +175,9 @@
 		},
 		"5f9c70ebbc5b48bba30c4bd14b80940d": {
 			"position": [
-				0.3467066561930563,
+				-0.44546023342358587,
 				0,
-				0.3729778973537108
+				-0.37788666382235225
 			]
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
@@ -180,6 +188,13 @@
 			]
 		},
 		"ba5a3b26d37d402087733b26a65b78bf": {
+		},
+		"c50a71da12a244748d12fefab4210a2b": {
+			"position": [
+				0.18860028571462464,
+				0,
+				0.526963158466525
+			]
 		},
 		"ca8b63307619459ea389f98a9ce4b998": {
 		}
@@ -255,6 +270,16 @@
 			},
 			"scriptName": "parkScene",
 			"type": "./Park/parkScene.zcomp#default"
+		},
+		"c50a71da12a244748d12fefab4210a2b": {
+			"id": "c50a71da12a244748d12fefab4210a2b",
+			"label": "pigeon 2",
+			"parent": {
+				"id": "root",
+				"order": "a2V"
+			},
+			"scriptName": "pigeon0",
+			"type": "./pigeon/pigeon.zcomp#default"
 		},
 		"root": {
 			"id": "root",

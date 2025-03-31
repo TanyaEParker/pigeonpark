@@ -273,7 +273,7 @@
 	"entityProps": {
 		"12cd9bd6f5ac4feabb64c794f4074a02": {
 			"anchor3D": true,
-			"distanceFactor": 0.2,
+			"distanceFactor": 0.5,
 			"verticalAnchor": "bottom"
 		},
 		"20419232d1b94ae8b0499aedd313c53d": {
@@ -308,7 +308,7 @@
 		},
 		"3d4c365e1a63414a918fc9bc1c0962c1": {
 			"reverseDirection": true,
-			"rotationMod": 0
+			"rotationMod": 0.0767892524041947
 		},
 		"433350305445447ab2126d4b9424b88a": {
 			"classList": [
@@ -318,7 +318,7 @@
 		},
 		"4c63f8334eab4deba8afe14512d515dc": {
 			"reverseDirection": true,
-			"rotationMod": 0
+			"rotationMod": 0.089160585705311
 		},
 		"5055890252bd49ca868f072bb0d14db0": {
 			"classList": [
@@ -392,7 +392,7 @@
 		},
 		"a443d03e6c3d4ed188a3eb67e68931c4": {
 			"reverseDirection": false,
-			"rotationMod": 0.142589469739554
+			"rotationMod": 0.0798820857294737
 		},
 		"b0d38eb6b3b54908b57e8da9c209d89e": {
 			"classList": [

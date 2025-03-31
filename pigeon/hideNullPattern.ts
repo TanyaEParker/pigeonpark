@@ -20,8 +20,9 @@ export class hideNullPattern extends Behavior<Img> {
 		super(contextManager, instance);
 		started(contextManager).then(()=>
 		{
-			console.log(instance.element.src);
-			this.instance.element.addEventListener("onerror",this.hidePattern);
+			const src = instance.element.src;
+			if(src.includes('undefined'))
+			this.hidePattern();
 		});
 		/*
 		// You can register handlers for events on the node that this behavior

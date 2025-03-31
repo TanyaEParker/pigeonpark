@@ -73,12 +73,33 @@ declare class Comp extends ZComponent {
 
 			}
 		},
+		left_leg: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		legs0: Div_2 & {
+			behaviors: {
+
+			}
+		},
 		neck_highlight: Div_2 & {
 			behaviors: {
 
 			}
 		},
+		overlay: Img_5 & {
+			behaviors: {
+				0: hideNullPattern_6,
+				hideNullPattern: hideNullPattern_6,
+			}
+		},
 		pupil: Div_2 & {
+			behaviors: {
+
+			}
+		},
+		right_leg: Div_2 & {
 			behaviors: {
 
 			}
@@ -98,27 +119,6 @@ declare class Comp extends ZComponent {
 			behaviors: {
 				0: adjustRotation_3,
 				adjustRotation: adjustRotation_3,
-			}
-		},
-		legs0: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		left_leg: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		right_leg: Div_2 & {
-			behaviors: {
-
-			}
-		},
-		overlay: Img_5 & {
-			behaviors: {
-				0: hideNullPattern_6,
-				hideNullPattern: hideNullPattern_6,
 			}
 		},
 	};
