@@ -1,0 +1,362 @@
+{
+	"behaviors": {
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"DirectionalLight": {
+			"b3c96716a6d546ec8255f8ddd495f29c": true
+		},
+		"ImageTexture": {
+			"7280aa15fddd4767bc7d54a66c942c26": true
+		},
+		"ImageTexture 2": {
+			"e25517ce93284a1da9b4ea8f3f86dbea": true
+		},
+		"MeshStandardMaterial 2": {
+			"69556bf4d339431fb27d60f87f1092b5": true
+		},
+		"Plane": {
+			"10e3122db3c240a5a0b287a70f928919": true
+		},
+		"pigeon": {
+			"9bc929546e23496186d1f889cfa9ec06": true
+		}
+	},
+	"entitiesByScriptName": {
+		"DirectionalLight": {
+			"b3c96716a6d546ec8255f8ddd495f29c": true
+		},
+		"ImageTexture": {
+			"7280aa15fddd4767bc7d54a66c942c26": true
+		},
+		"ImageTexture_2": {
+			"e25517ce93284a1da9b4ea8f3f86dbea": true
+		},
+		"MeshStandardMaterial_2": {
+			"69556bf4d339431fb27d60f87f1092b5": true
+		},
+		"Plane": {
+			"10e3122db3c240a5a0b287a70f928919": true
+		},
+		"pigeon": {
+			"9bc929546e23496186d1f889cfa9ec06": true
+		}
+	},
+	"entityConstructorProps": {
+		"10e3122db3c240a5a0b287a70f928919": {
+		},
+		"69556bf4d339431fb27d60f87f1092b5": {
+		},
+		"7280aa15fddd4767bc7d54a66c942c26": {
+			"source": "file://./../assets/parkScene/GroundMask.png"
+		},
+		"9bc929546e23496186d1f889cfa9ec06": {
+		},
+		"b3c96716a6d546ec8255f8ddd495f29c": {
+		},
+		"e25517ce93284a1da9b4ea8f3f86dbea": {
+			"source": "file://./../assets/parkScene/ground.jpg"
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"10e3122db3c240a5a0b287a70f928919": {
+			"rotation": [
+				-1.5707963267948966,
+				0,
+				0
+			],
+			"scale": [
+				2,
+				2,
+				2
+			]
+		},
+		"69556bf4d339431fb27d60f87f1092b5": {
+			"attachTo": "",
+			"transparent": true
+		},
+		"7280aa15fddd4767bc7d54a66c942c26": {
+			"attachTo": "alphaMap"
+		},
+		"9bc929546e23496186d1f889cfa9ec06": {
+			"position": [
+				-0.530954079734324,
+				0,
+				0
+			]
+		},
+		"b3c96716a6d546ec8255f8ddd495f29c": {
+			"castShadow": true,
+			"position": [
+				0,
+				1.0564850061255198,
+				0
+			],
+			"rotation": [
+				0.24467126845633036,
+				0,
+				0
+			]
+		},
+		"e25517ce93284a1da9b4ea8f3f86dbea": {
+		}
+	},
+	"id": "89641a1711b44b39b1feeda2406ea5ed",
+	"nodes": {
+		"10e3122db3c240a5a0b287a70f928919": {
+			"id": "10e3122db3c240a5a0b287a70f928919",
+			"label": "Plane",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "Plane",
+			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
+		},
+		"69556bf4d339431fb27d60f87f1092b5": {
+			"id": "69556bf4d339431fb27d60f87f1092b5",
+			"label": "MeshStandardMaterial 2",
+			"parent": {
+				"id": "10e3122db3c240a5a0b287a70f928919",
+				"order": "a0"
+			},
+			"scriptName": "MeshStandardMaterial_2",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"7280aa15fddd4767bc7d54a66c942c26": {
+			"id": "7280aa15fddd4767bc7d54a66c942c26",
+			"label": "ImageTexture",
+			"parent": {
+				"id": "69556bf4d339431fb27d60f87f1092b5",
+				"order": "a0"
+			},
+			"scriptName": "ImageTexture",
+			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
+		},
+		"9bc929546e23496186d1f889cfa9ec06": {
+			"id": "9bc929546e23496186d1f889cfa9ec06",
+			"label": "pigeon",
+			"parent": {
+				"id": "root",
+				"order": "a4"
+			},
+			"scriptName": "pigeon",
+			"type": "../pigeon/pigeon.zcomp#default"
+		},
+		"b3c96716a6d546ec8255f8ddd495f29c": {
+			"id": "b3c96716a6d546ec8255f8ddd495f29c",
+			"label": "DirectionalLight",
+			"parent": {
+				"id": "root",
+				"order": "a3"
+			},
+			"scriptName": "DirectionalLight",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"e25517ce93284a1da9b4ea8f3f86dbea": {
+			"id": "e25517ce93284a1da9b4ea8f3f86dbea",
+			"label": "ImageTexture 2",
+			"parent": {
+				"id": "69556bf4d339431fb27d60f87f1092b5",
+				"order": "a1"
+			},
+			"scriptName": "ImageTexture_2",
+			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}

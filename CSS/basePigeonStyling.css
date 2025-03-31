@@ -1,0 +1,93 @@
+.pigeon-body
+{
+	background-color: #878787;
+
+	width: 815px;
+	height: 546px;
+	border-radius: 273px;
+	z-index: auto;
+}
+
+.pigeon-neck
+{
+	background-color: #797979;
+
+	width: 428px;
+	height: 836px;
+	border-radius: 214px;
+	transform-origin: 50% 75%;
+
+	position: absolute;
+	bottom: 95px;
+
+	z-index: -1;
+}
+
+.pigeon-neck-highlight
+{
+	width: 428px;
+	height: 110px;
+	position: relative;
+	top: 70px;
+	background: linear-gradient(green,purple);
+	mix-blend-mode: soft-light;
+	opacity: 0.5;
+}
+
+.pigeon-eye
+{
+	aspect-ratio: 1;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pigeon-eye-base
+{
+	height: 186px;
+
+	background-color: #f9f9f9;
+	position: relative;
+	left: 121px;
+	top: 50px;
+}
+
+.pigeon-eye-iris
+{
+	height: 80%;
+	background-color: orange;
+}
+
+.pigeon-eye-pupil
+{
+	background-color: black;
+	height: 55%;
+}
+
+.pigeon-eye-highlight-holder
+{
+	opacity: 0.5;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.pigeon-eye-highlight-large
+{
+	background-color: white;
+	border-radius: 50%;
+	aspect-ratio: 1;
+	height: 75px;
+	position: absolute;
+	right: 45px;
+	top: 8px;
+}
+
+.pigeon-eye-highlight-small
+{
+	background-color: white;
+	border-radius: 50%;
+	aspect-ratio: 1;
+	height: 50px;
+}

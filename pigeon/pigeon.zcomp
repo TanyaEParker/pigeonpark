@@ -1,0 +1,624 @@
+{
+	"behaviors": {
+		"28f85e437a0140198f91af710b1f761c": {
+			"id": "28f85e437a0140198f91af710b1f761c",
+			"label": "adjustRotation",
+			"parent": {
+				"id": "5240ac3b87d6462cb43fc5d58401b3ae",
+				"order": "a0",
+				"scriptName": "adjustRotation"
+			},
+			"type": "./adjustRotation.ts#adjustRotation"
+		},
+		"3dd12fd094bf4833b2f23a29ddb3bbec": {
+			"id": "3dd12fd094bf4833b2f23a29ddb3bbec",
+			"label": "modifyZIndex",
+			"parent": {
+				"id": "5055890252bd49ca868f072bb0d14db0",
+				"order": "a1",
+				"scriptName": "modifyZIndex"
+			},
+			"type": "./modifyZIndex#modifyZIndex"
+		},
+		"4c63f8334eab4deba8afe14512d515dc": {
+			"id": "4c63f8334eab4deba8afe14512d515dc",
+			"label": "adjustRotation",
+			"parent": {
+				"id": "5055890252bd49ca868f072bb0d14db0",
+				"order": "a0",
+				"scriptName": "adjustRotation"
+			},
+			"type": "./adjustRotation#adjustRotation"
+		}
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"CSS": {
+			"72190ca881e8493495091850b1e451b5": true
+		},
+		"HTML": {
+			"12cd9bd6f5ac4feabb64c794f4074a02": true
+		},
+		"Neck": {
+			"5055890252bd49ca868f072bb0d14db0": true
+		},
+		"beak": {
+			"346535a4296f4ca8812e8183c944e1d3": true
+		},
+		"beakBlob": {
+			"3d0f1bb6361c4234be3c8c59a98fdffc": true
+		},
+		"body": {
+			"5240ac3b87d6462cb43fc5d58401b3ae": true
+		},
+		"eye": {
+			"21cb281bb52248aab2072d7d60e9c6b4": true
+		},
+		"highight-holder": {
+			"9ff4e4db91b84fb68dd7732144f72b30": true
+		},
+		"iris": {
+			"433350305445447ab2126d4b9424b88a": true
+		},
+		"large highlight": {
+			"83f47e81b74144f6ba2a096a034daaec": true
+		},
+		"legs": {
+			"c2ba5da340b04730a3074d0ae37d8c04": true
+		},
+		"neck-highlight": {
+			"3ace577f0f15429da5a17d94c6c3a808": true
+		},
+		"pupil": {
+			"8ce4fb0631c447b29eb6ab64ea341c2c": true
+		},
+		"small highlight": {
+			"6e0a3b78a6514d9198489e8d9e739e25": true
+		},
+		"tail": {
+			"20419232d1b94ae8b0499aedd313c53d": true
+		},
+		"wing": {
+			"68ef5568dcca4d868a1aad277804d845": true
+		}
+	},
+	"entitiesByScriptName": {
+		"CSS": {
+			"72190ca881e8493495091850b1e451b5": true
+		},
+		"HTML": {
+			"12cd9bd6f5ac4feabb64c794f4074a02": true
+		},
+		"Neck": {
+			"5055890252bd49ca868f072bb0d14db0": true
+		},
+		"beak": {
+			"346535a4296f4ca8812e8183c944e1d3": true
+		},
+		"beakBlob": {
+			"3d0f1bb6361c4234be3c8c59a98fdffc": true
+		},
+		"body": {
+			"5240ac3b87d6462cb43fc5d58401b3ae": true
+		},
+		"eye": {
+			"21cb281bb52248aab2072d7d60e9c6b4": true
+		},
+		"highight_holder": {
+			"9ff4e4db91b84fb68dd7732144f72b30": true
+		},
+		"iris": {
+			"433350305445447ab2126d4b9424b88a": true
+		},
+		"large_highlight": {
+			"83f47e81b74144f6ba2a096a034daaec": true
+		},
+		"legs": {
+			"c2ba5da340b04730a3074d0ae37d8c04": true
+		},
+		"neck_highlight": {
+			"3ace577f0f15429da5a17d94c6c3a808": true
+		},
+		"pupil": {
+			"8ce4fb0631c447b29eb6ab64ea341c2c": true
+		},
+		"small_highlight": {
+			"6e0a3b78a6514d9198489e8d9e739e25": true
+		},
+		"tail": {
+			"20419232d1b94ae8b0499aedd313c53d": true
+		},
+		"wing": {
+			"68ef5568dcca4d868a1aad277804d845": true
+		}
+	},
+	"entityConstructorProps": {
+		"12cd9bd6f5ac4feabb64c794f4074a02": {
+		},
+		"20419232d1b94ae8b0499aedd313c53d": {
+		},
+		"21cb281bb52248aab2072d7d60e9c6b4": {
+		},
+		"28f85e437a0140198f91af710b1f761c": {
+		},
+		"346535a4296f4ca8812e8183c944e1d3": {
+		},
+		"3ace577f0f15429da5a17d94c6c3a808": {
+		},
+		"3d0f1bb6361c4234be3c8c59a98fdffc": {
+		},
+		"3dd12fd094bf4833b2f23a29ddb3bbec": {
+		},
+		"433350305445447ab2126d4b9424b88a": {
+		},
+		"4c63f8334eab4deba8afe14512d515dc": {
+		},
+		"5055890252bd49ca868f072bb0d14db0": {
+		},
+		"5240ac3b87d6462cb43fc5d58401b3ae": {
+		},
+		"68ef5568dcca4d868a1aad277804d845": {
+		},
+		"6e0a3b78a6514d9198489e8d9e739e25": {
+		},
+		"72190ca881e8493495091850b1e451b5": {
+			"source": "file://./../CSS/basePigeonStyling.css"
+		},
+		"83f47e81b74144f6ba2a096a034daaec": {
+		},
+		"8ce4fb0631c447b29eb6ab64ea341c2c": {
+		},
+		"9ff4e4db91b84fb68dd7732144f72b30": {
+		},
+		"c2ba5da340b04730a3074d0ae37d8c04": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"12cd9bd6f5ac4feabb64c794f4074a02": {
+			"anchor3D": true,
+			"distanceFactor": 0.2,
+			"verticalAnchor": "bottom"
+		},
+		"20419232d1b94ae8b0499aedd313c53d": {
+		},
+		"21cb281bb52248aab2072d7d60e9c6b4": {
+			"classList": [
+				"pigeon-eye",
+				"pigeon-eye-base"
+			]
+		},
+		"28f85e437a0140198f91af710b1f761c": {
+			"reverseDirection": false,
+			"rotationMod": 0
+		},
+		"346535a4296f4ca8812e8183c944e1d3": {
+		},
+		"3ace577f0f15429da5a17d94c6c3a808": {
+			"classList": [
+				"pigeon-neck-highlight"
+			]
+		},
+		"3d0f1bb6361c4234be3c8c59a98fdffc": {
+		},
+		"3dd12fd094bf4833b2f23a29ddb3bbec": {
+			"ZIndex": -1
+		},
+		"433350305445447ab2126d4b9424b88a": {
+			"classList": [
+				"pigeon-eye",
+				"pigeon-eye-iris"
+			]
+		},
+		"4c63f8334eab4deba8afe14512d515dc": {
+			"reverseDirection": true,
+			"rotationMod": 0
+		},
+		"5055890252bd49ca868f072bb0d14db0": {
+			"classList": [
+				"pigeon-neck"
+			]
+		},
+		"5240ac3b87d6462cb43fc5d58401b3ae": {
+			"classList": [
+				"pigeon-body"
+			],
+			"id": ""
+		},
+		"68ef5568dcca4d868a1aad277804d845": {
+		},
+		"6e0a3b78a6514d9198489e8d9e739e25": {
+			"classList": [
+				"pigeon-eye-highlight-small"
+			],
+			"position": "absolute",
+			"right": [
+				20,
+				"px"
+			],
+			"top": [
+				98,
+				"px"
+			]
+		},
+		"72190ca881e8493495091850b1e451b5": {
+		},
+		"83f47e81b74144f6ba2a096a034daaec": {
+			"classList": [
+				"pigeon-eye-highlight-large"
+			],
+			"position": "absolute"
+		},
+		"8ce4fb0631c447b29eb6ab64ea341c2c": {
+			"classList": [
+				"pigeon-eye",
+				"pigeon-eye-pupil"
+			]
+		},
+		"9ff4e4db91b84fb68dd7732144f72b30": {
+			"classList": [
+				"pigeon-eye",
+				"pigeon-eye-highlight-holder"
+			]
+		},
+		"c2ba5da340b04730a3074d0ae37d8c04": {
+		}
+	},
+	"id": "c7a746a9d5c847cd90410a7e176e9c4b",
+	"nodes": {
+		"12cd9bd6f5ac4feabb64c794f4074a02": {
+			"id": "12cd9bd6f5ac4feabb64c794f4074a02",
+			"label": "HTML",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "HTML",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"20419232d1b94ae8b0499aedd313c53d": {
+			"id": "20419232d1b94ae8b0499aedd313c53d",
+			"label": "tail",
+			"parent": {
+				"id": "12cd9bd6f5ac4feabb64c794f4074a02",
+				"order": "a2"
+			},
+			"scriptName": "tail",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"21cb281bb52248aab2072d7d60e9c6b4": {
+			"id": "21cb281bb52248aab2072d7d60e9c6b4",
+			"label": "eye",
+			"parent": {
+				"id": "5055890252bd49ca868f072bb0d14db0",
+				"order": "a0"
+			},
+			"scriptName": "eye",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"346535a4296f4ca8812e8183c944e1d3": {
+			"id": "346535a4296f4ca8812e8183c944e1d3",
+			"label": "beak",
+			"parent": {
+				"id": "5055890252bd49ca868f072bb0d14db0",
+				"order": "a2"
+			},
+			"scriptName": "beak",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"3ace577f0f15429da5a17d94c6c3a808": {
+			"id": "3ace577f0f15429da5a17d94c6c3a808",
+			"label": "neck-highlight",
+			"parent": {
+				"id": "5055890252bd49ca868f072bb0d14db0",
+				"order": "a1"
+			},
+			"scriptName": "neck_highlight",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"3d0f1bb6361c4234be3c8c59a98fdffc": {
+			"id": "3d0f1bb6361c4234be3c8c59a98fdffc",
+			"label": "beakBlob",
+			"parent": {
+				"id": "346535a4296f4ca8812e8183c944e1d3",
+				"order": "a0"
+			},
+			"scriptName": "beakBlob",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"433350305445447ab2126d4b9424b88a": {
+			"id": "433350305445447ab2126d4b9424b88a",
+			"label": "iris",
+			"parent": {
+				"id": "21cb281bb52248aab2072d7d60e9c6b4",
+				"order": "Zx"
+			},
+			"scriptName": "iris",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"5055890252bd49ca868f072bb0d14db0": {
+			"id": "5055890252bd49ca868f072bb0d14db0",
+			"label": "Neck",
+			"parent": {
+				"id": "12cd9bd6f5ac4feabb64c794f4074a02",
+				"order": "Zz"
+			},
+			"scriptName": "Neck",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"5240ac3b87d6462cb43fc5d58401b3ae": {
+			"id": "5240ac3b87d6462cb43fc5d58401b3ae",
+			"label": "body",
+			"parent": {
+				"id": "12cd9bd6f5ac4feabb64c794f4074a02",
+				"order": "a0"
+			},
+			"scriptName": "body",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"68ef5568dcca4d868a1aad277804d845": {
+			"id": "68ef5568dcca4d868a1aad277804d845",
+			"label": "wing",
+			"parent": {
+				"id": "5240ac3b87d6462cb43fc5d58401b3ae",
+				"order": "a0"
+			},
+			"scriptName": "wing",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"6e0a3b78a6514d9198489e8d9e739e25": {
+			"id": "6e0a3b78a6514d9198489e8d9e739e25",
+			"label": "small highlight",
+			"parent": {
+				"id": "9ff4e4db91b84fb68dd7732144f72b30",
+				"order": "a2"
+			},
+			"scriptName": "small_highlight",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"72190ca881e8493495091850b1e451b5": {
+			"id": "72190ca881e8493495091850b1e451b5",
+			"label": "CSS",
+			"parent": {
+				"id": "root",
+				"order": "a2"
+			},
+			"scriptName": "CSS",
+			"type": "@zcomponent/html/lib/CSS#CSS"
+		},
+		"83f47e81b74144f6ba2a096a034daaec": {
+			"id": "83f47e81b74144f6ba2a096a034daaec",
+			"label": "large highlight",
+			"parent": {
+				"id": "9ff4e4db91b84fb68dd7732144f72b30",
+				"order": "a0"
+			},
+			"scriptName": "large_highlight",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"8ce4fb0631c447b29eb6ab64ea341c2c": {
+			"id": "8ce4fb0631c447b29eb6ab64ea341c2c",
+			"label": "pupil",
+			"parent": {
+				"id": "433350305445447ab2126d4b9424b88a",
+				"order": "a0"
+			},
+			"scriptName": "pupil",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"9ff4e4db91b84fb68dd7732144f72b30": {
+			"id": "9ff4e4db91b84fb68dd7732144f72b30",
+			"label": "highight-holder",
+			"parent": {
+				"id": "21cb281bb52248aab2072d7d60e9c6b4",
+				"order": "Zy"
+			},
+			"scriptName": "highight_holder",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"c2ba5da340b04730a3074d0ae37d8c04": {
+			"id": "c2ba5da340b04730a3074d0ae37d8c04",
+			"label": "legs",
+			"parent": {
+				"id": "12cd9bd6f5ac4feabb64c794f4074a02",
+				"order": "a1"
+			},
+			"scriptName": "legs",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}

@@ -1,5 +1,28 @@
 {
 	"behaviors": {
+<<<<<<< Updated upstream
+=======
+		"15f28e36d2f64a97beb36252220df83e": {
+			"id": "15f28e36d2f64a97beb36252220df83e",
+			"label": "MouseOrbit",
+			"parent": {
+				"id": "37e06ac116b0421698ef7a3df6802e38",
+				"order": "a0",
+				"scriptName": "MouseOrbit"
+			},
+			"type": "@zcomponent/three/lib/behaviors/MouseOrbit#MouseOrbit"
+		},
+		"ca8b63307619459ea389f98a9ce4b998": {
+			"id": "ca8b63307619459ea389f98a9ce4b998",
+			"label": "testOrbit",
+			"parent": {
+				"id": "37e06ac116b0421698ef7a3df6802e38",
+				"order": "a1",
+				"scriptName": "testOrbit"
+			},
+			"type": "./testOrbit.ts#testOrbit"
+		}
+>>>>>>> Stashed changes
 	},
 	"constructorProps": {
 	},
@@ -11,7 +34,11 @@
 			"0ba8e27369df45ca897731dcb1e39bcf": true
 		},
 		"DefaultEnvironment": {
+<<<<<<< Updated upstream
 			"a57f5d58e38e4a0b918dcf605ea12736": true
+=======
+			"11d8c40365d045eb9eda813df80d54ba": true
+>>>>>>> Stashed changes
 		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
@@ -40,7 +67,11 @@
 			"0ba8e27369df45ca897731dcb1e39bcf": true
 		},
 		"DefaultEnvironment": {
+<<<<<<< Updated upstream
 			"a57f5d58e38e4a0b918dcf605ea12736": true
+=======
+			"11d8c40365d045eb9eda813df80d54ba": true
+>>>>>>> Stashed changes
 		},
 		"DefaultLoader": {
 			"52148d8eafe3426085e700e049662c07": true
@@ -61,7 +92,13 @@
 	"entityConstructorProps": {
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
+<<<<<<< Updated upstream
 		"194aae695cba4b60a35c287f3e37fbcf": {
+=======
+		"11d8c40365d045eb9eda813df80d54ba": {
+		},
+		"15f28e36d2f64a97beb36252220df83e": {
+>>>>>>> Stashed changes
 		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 		},
@@ -69,11 +106,17 @@
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
+<<<<<<< Updated upstream
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
 		"a57f5d58e38e4a0b918dcf605ea12736": {
 		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
+=======
+		"ba5a3b26d37d402087733b26a65b78bf": {
+		},
+		"ca8b63307619459ea389f98a9ce4b998": {
+>>>>>>> Stashed changes
 		}
 	},
 	"entityPropOverrides": {
@@ -125,12 +168,21 @@
 	"entityProps": {
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
+<<<<<<< Updated upstream
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"position": [
 				0,
 				0.7863417862867201,
 				0
 			]
+=======
+		"11d8c40365d045eb9eda813df80d54ba": {
+		},
+		"15f28e36d2f64a97beb36252220df83e": {
+			"maxPolarAngle": 1.07,
+			"minPolarAngle": 0.5,
+			"rightButton": "None"
+>>>>>>> Stashed changes
 		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 			"position": [
@@ -156,9 +208,15 @@
 				0
 			]
 		},
+<<<<<<< Updated upstream
 		"a57f5d58e38e4a0b918dcf605ea12736": {
 		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
+=======
+		"ba5a3b26d37d402087733b26a65b78bf": {
+		},
+		"ca8b63307619459ea389f98a9ce4b998": {
+>>>>>>> Stashed changes
 		}
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
@@ -173,6 +231,7 @@
 			"scriptName": "DefaultCookieConsent",
 			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
 		},
+<<<<<<< Updated upstream
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"id": "194aae695cba4b60a35c287f3e37fbcf",
 			"label": "Box",
@@ -182,6 +241,17 @@
 			},
 			"scriptName": "Box",
 			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+=======
+		"11d8c40365d045eb9eda813df80d54ba": {
+			"id": "11d8c40365d045eb9eda813df80d54ba",
+			"label": "DefaultEnvironment",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "DefaultEnvironment",
+			"type": "@zcomponent/three/lib/components/environments/DefaultEnvironment#DefaultEnvironment"
+>>>>>>> Stashed changes
 		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 			"id": "37e06ac116b0421698ef7a3df6802e38",
