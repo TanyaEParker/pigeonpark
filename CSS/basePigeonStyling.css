@@ -110,8 +110,10 @@
 }
 .pigeon-wing-overlay
 {
+	border-radius: 400px 50px 800px 400px;
 	width: 100%;
 	height: 100%;
+	mix-blend-mode: soft-light;
 }
 .pigeon-beak
 {

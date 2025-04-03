@@ -61,11 +61,6 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		pigeon0: pigeon_zcomp_8 & {
-			behaviors: {
-
-			}
-		},
 	};
 
 	animation: Animation & { layers: {
