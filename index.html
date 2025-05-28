@@ -7,15 +7,37 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="./CSS/splash.css">
+		<link rel="stylesheet" href="./CSS/desktopSplash.css">
 
 		<script src="./index.ts" type="module" async></script>
 	</head>
 	<body>
-		<div class="splash">
-			<div class="splash-box">
-				<img src="./assets/splash/PParkLogo.webp" class="splash-logo">
+		<div id ="MobileSplash" style = "display: none;">
+			<div class="splash">
+				<div class="splash-box">
+					<img src="./assets/splash/PParkLogo.webp" class="splash-logo">
+				</div>
+				<button id="launchButton" disabled>Launch</button>
 			</div>
-			<button id="launchButton" disabled>Launch</button>
+		</div>
+		<div id="DesktopSplash" style="display: none;">
+			<div class="header">
+				<div class="headerImageWrapper">
+					<img class="headerImage" src="./assets/splash/PParkLogo.webp">
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="copy">
+					<span class ="desktopSplashHeading">This Experience is Designed for Mobile</span>
+					<span class ="splashCopy">scan this code using your mobile camera or vist<br><br><span id = 'CurrentURL'></span><br><br>on your mobile device</b></span>
+				</div>
+			<div class="QRContainer">
+				<img id="QR">
+			</div>
+			</div>
+			<span class= "footer">
+			Designed 2025 by Tanya Eloise Parker | <a href="https://www.tanyaeloiseparker.co.uk/work" class="desktopSplashLink">Portfolio</a> | <a href="https://www.linkedin.com/in/tparkerdev/" class="desktopSplashLink">LinkedIn</a>
+			</span>
 		</div>
 	</body>
 </html>

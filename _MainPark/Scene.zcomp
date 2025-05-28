@@ -10,16 +10,6 @@
 			},
 			"type": "@zcomponent/three/lib/behaviors/MouseOrbit#MouseOrbit"
 		},
-		"346b7149951144dea58822d46ffa1768": {
-			"id": "346b7149951144dea58822d46ffa1768",
-			"label": "renderOrder",
-			"parent": {
-				"id": "5f9c70ebbc5b48bba30c4bd14b80940d",
-				"order": "a0",
-				"scriptName": "renderOrder"
-			},
-			"type": "../renderOrder.ts#renderOrder"
-		},
 		"ca8b63307619459ea389f98a9ce4b998": {
 			"id": "ca8b63307619459ea389f98a9ce4b998",
 			"label": "testOrbit",
@@ -28,7 +18,7 @@
 				"order": "a1",
 				"scriptName": "testOrbit"
 			},
-			"type": "../testOrbit.ts#testOrbit"
+			"type": "./testOrbit.ts#testOrbit"
 		}
 	},
 	"constructorProps": {
@@ -88,8 +78,6 @@
 		"11d8c40365d045eb9eda813df80d54ba": {
 		},
 		"15f28e36d2f64a97beb36252220df83e": {
-		},
-		"346b7149951144dea58822d46ffa1768": {
 		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 		},
@@ -159,9 +147,6 @@
 			"maxPolarAngle": 1.07,
 			"minPolarAngle": 0.5,
 			"rightButton": "None"
-		},
-		"346b7149951144dea58822d46ffa1768": {
-			"renderOrder": 4
 		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 			"position": [

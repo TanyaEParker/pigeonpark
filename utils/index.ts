@@ -22,8 +22,9 @@ export const generateQRCode = (element: HTMLImageElement, value: string) => {
     );
   };
 
-  export const isMobileDevice = () => {
-    return isMobileUA() && isPortrait();
+  export const isMobileDevice = ():boolean =>
+  {
+    return !!isMobileUA() && isPortrait();
   };
   
 export const removeIOSDoubleTapZoom = () => {
