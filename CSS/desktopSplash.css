@@ -18,6 +18,7 @@
 
 .header
 {
+
     display: flex;
     background-color: var(--midgroundColour);
     width: 100%;
@@ -40,6 +41,9 @@
 
 .wrapper
 {
+    box-shadow: 0px 10px 10px var(--midgroundColour);
+    height: 40dvh;
+    aspect-ratio: 2;
     display: flex;
     background-color: var(--foregroundColour);
     font-family: "Chewy";
@@ -47,14 +51,16 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    padding: 40px;
+    /* padding: 40px; */
     border-radius: 10px;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .copy
 {
-    padding-left: 10px;
-    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .desktopSplashHeading
@@ -74,27 +80,47 @@
 }
 .QRContainer
 {
-    width: 40px;
+    width: 25dvh;
     aspect-ratio: 1;
 }
 
-.QR
+#QR
 {
+    border-radius: 5%;
     width: 100%;
     height: 100%;
 }
 
 .footer
 {
-    display: flex;
+    line-height: 40px;
+    text-align: center;
+    color: white;
     width: 100%;
     height: 40px;
     background-color: var(--midgroundColour);
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .desktopSplashLink
 {
+    font-weight: bold;
+}
 
+.desktopSplashLink:link
+{
+    color: white;
+}
+.desktopSplashLink:visited
+{
+    color: white;
+}
+.desktopSplashLink:hover
+{
+    color: white;
+}
+.desktopSplashLink:active
+{
+    color: white;
 }
