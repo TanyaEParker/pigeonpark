@@ -1,7 +1,7 @@
 {
 	"behaviors": {
-		"15f28e36d2f64a97beb36252220df83e": {
-			"id": "15f28e36d2f64a97beb36252220df83e",
+		"39f5f781e8b8457795eb900baf54ad1c": {
+			"id": "39f5f781e8b8457795eb900baf54ad1c",
 			"label": "MouseOrbit",
 			"parent": {
 				"id": "37e06ac116b0421698ef7a3df6802e38",
@@ -9,16 +9,6 @@
 				"scriptName": "MouseOrbit"
 			},
 			"type": "@zcomponent/three/lib/behaviors/MouseOrbit#MouseOrbit"
-		},
-		"ca8b63307619459ea389f98a9ce4b998": {
-			"id": "ca8b63307619459ea389f98a9ce4b998",
-			"label": "testOrbit",
-			"parent": {
-				"id": "37e06ac116b0421698ef7a3df6802e38",
-				"order": "a1",
-				"scriptName": "testOrbit"
-			},
-			"type": "./testOrbit.ts#testOrbit"
 		}
 	},
 	"constructorProps": {
@@ -77,9 +67,9 @@
 		},
 		"11d8c40365d045eb9eda813df80d54ba": {
 		},
-		"15f28e36d2f64a97beb36252220df83e": {
-		},
 		"37e06ac116b0421698ef7a3df6802e38": {
+		},
+		"39f5f781e8b8457795eb900baf54ad1c": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -88,8 +78,6 @@
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
 		"ba5a3b26d37d402087733b26a65b78bf": {
-		},
-		"ca8b63307619459ea389f98a9ce4b998": {
 		}
 	},
 	"entityPropOverrides": {
@@ -143,11 +131,6 @@
 		},
 		"11d8c40365d045eb9eda813df80d54ba": {
 		},
-		"15f28e36d2f64a97beb36252220df83e": {
-			"maxPolarAngle": 1.07,
-			"minPolarAngle": 0.5,
-			"rightButton": "None"
-		},
 		"37e06ac116b0421698ef7a3df6802e38": {
 			"position": [
 				0,
@@ -162,6 +145,8 @@
 			"tags": [
 				""
 			]
+		},
+		"39f5f781e8b8457795eb900baf54ad1c": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -180,8 +165,6 @@
 			]
 		},
 		"ba5a3b26d37d402087733b26a65b78bf": {
-		},
-		"ca8b63307619459ea389f98a9ce4b998": {
 		}
 	},
 	"id": "5d4513e843574c04847bf1474912090f",

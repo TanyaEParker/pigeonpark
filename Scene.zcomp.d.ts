@@ -6,9 +6,8 @@ import { DefaultLoader as DefaultLoader_2 } from "@zcomponent/core/lib/component
 import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
 import { PerspectiveCamera as PerspectiveCamera_4 } from "@zcomponent/three/lib/components/cameras/PerspectiveCamera";
 import { MouseOrbit as MouseOrbit_5 } from "@zcomponent/three/lib/behaviors/MouseOrbit";
-import { testOrbit as testOrbit_6 } from "./testOrbit";
-import { default as parkScene_zcomp_7 } from "./Park/parkScene.zcomp";
-import { default as pigeon_zcomp_8 } from "./pigeon/pigeon.zcomp";
+import { default as parkScene_zcomp_6 } from "./Park/parkScene.zcomp";
+import { default as pigeon_zcomp_7 } from "./pigeon/pigeon.zcomp";
 
 interface ConstructorProps {
 
@@ -47,16 +46,14 @@ declare class Comp extends ZComponent {
 			behaviors: {
 				0: MouseOrbit_5,
 				MouseOrbit: MouseOrbit_5,
-				1: testOrbit_6,
-				testOrbit: testOrbit_6,
 			}
 		},
-		parkScene: parkScene_zcomp_7 & {
+		parkScene: parkScene_zcomp_6 & {
 			behaviors: {
 
 			}
 		},
-		pigeon: pigeon_zcomp_8 & {
+		pigeon: pigeon_zcomp_7 & {
 			behaviors: {
 
 			}
